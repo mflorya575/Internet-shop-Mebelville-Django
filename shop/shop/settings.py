@@ -45,6 +45,7 @@ INSTALLED_APPS = [
     # Приложения
     'main.apps.MainConfig',
     'goods.apps.GoodsConfig',
+    'users.apps.UsersConfig',
 ]
 
 MIDDLEWARE = [
