@@ -36,3 +36,11 @@ body {
   border-radius: 15px;
   font-size: 0.7rem;
 }
+
+.custom-nav {
+    background: #c8b6b6;
+}
+
+.custom-footer {
+    background: #c8b6b6;
+}
