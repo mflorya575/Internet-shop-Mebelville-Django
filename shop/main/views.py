@@ -23,3 +23,16 @@ def about(request):
 
     return render(request, 'main/about.html', context)
 
+
+def contact(request):
+    context = {
+        'title': 'Контактная информация - Mebelville',
+        'content': 'Контактная информация',
+        'address': '5171 В. Кэмпбел Авенью, США',
+        'call_us': '(+91) - 540-025-124553',
+        'email': 'mebelville@gmail.com',
+        'hours': '10:00 - 18:00, Пн - Сб',
+    }
+
+    return render(request, 'main/contact.html', context)
+

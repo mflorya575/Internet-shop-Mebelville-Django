@@ -12,7 +12,11 @@
 {% block content %}
     <div class="mt-5 pt-5 bg-white custom-shadow rounded">
         <h2 class="m-2"><strong>{{ content }}</strong></h2>
+        <p class="m-2">Адрес: {{ address }}</p>
+        <p class="m-2">Номер: {{ call_us }}</p>
+        <p class="m-2">Email: {{ email }}</p>
         <p class="m-2">{{ text_on_page }}</p>
+        <p class="m-2">Часы работы: {{ hours }}</p>
         <br>
     </div>
 {% endblock %}
