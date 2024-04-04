@@ -36,3 +36,13 @@ def contact(request):
 
     return render(request, 'main/contact.html', context)
 
+
+def privacy_policy(request):
+    context = {
+        'title': 'Политика конфиденциальности - Mebelville',
+        'content': 'Политика конфиденциальности',
+        'text_on_page': 'Скоро здесь будет текст политики конфиденциальности',
+    }
+
+    return render(request, 'main/privacy-policy.html', context)
+
